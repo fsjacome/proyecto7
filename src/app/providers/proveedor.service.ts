@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 export class ProveedorService {
 
   constructor(private http:HttpClient) { }
-  private URL: string = "http://localhost:3000/rest/cliente/findAll/json";
+  private URL: string = "https://express-production-1fdc.up.railway.app/rest/cliente/findAll/json";
 
   getResponse() {
     return this.http.get(this.URL);
