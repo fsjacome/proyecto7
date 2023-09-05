@@ -13,8 +13,14 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatTableModule } from '@angular/material/table';
 import { MatCardModule } from '@angular/material/card';
+import {MatSelectModule} from '@angular/material/select';
+import {MatInputModule} from '@angular/material/input';
 import { FlexLayoutModule } from "@angular/flex-layout";
 import { HttpClientModule } from  '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+
+
+
 
 @NgModule({
   declarations: [
@@ -35,7 +41,11 @@ import { HttpClientModule } from  '@angular/common/http';
     MatListModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    MatTableModule
+    MatTableModule,
+    MatSelectModule,
+    MatInputModule,
+    FormsModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
